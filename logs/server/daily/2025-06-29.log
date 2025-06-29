@@ -1,0 +1,156 @@
+info: Connected to the database. {"timestamp":"2025-06-29T09:46:42.425Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-06-29T09:52:42.489Z"}
+info: Connected to the database. {"timestamp":"2025-06-29T09:52:42.558Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-06-29T09:52:54.674Z"}
+info: Connected to the database. {"timestamp":"2025-06-29T09:52:54.710Z"}
+info: Connected to the database. {"timestamp":"2025-06-29T09:59:26.127Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-06-29T10:02:38.745Z"}
+info: Connected to the database. {"timestamp":"2025-06-29T10:02:38.782Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-06-29T10:13:16.297Z"}
+info: Connected to the database. {"timestamp":"2025-06-29T10:13:16.383Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-06-29T10:19:28.424Z"}
+info: Connected to the database. {"timestamp":"2025-06-29T10:19:28.491Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-06-29T10:19:43.567Z"}
+info: Connected to the database. {"timestamp":"2025-06-29T10:19:43.612Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/register 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2025-06-29T10:27:51.285Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-06-29T10:29:03.399Z"}
+info: Connected to the database. {"timestamp":"2025-06-29T10:29:03.448Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-06-29T10:29:08.029Z"}
+info: Connected to the database. {"timestamp":"2025-06-29T10:29:08.064Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-06-29T15:40:13.063Z"}
+info: Connected to the database. {"timestamp":"2025-06-29T15:40:13.138Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/1 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2025-06-29T15:43:43.325Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-06-29T15:44:10.489Z"}
+info: Connected to the database. {"timestamp":"2025-06-29T15:44:10.672Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-06-29T15:45:33.374Z"}
+info: Connected to the database. {"timestamp":"2025-06-29T15:45:33.423Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-06-29T15:45:43.931Z"}
+info: Connected to the database. {"timestamp":"2025-06-29T15:45:43.963Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-06-29T16:23:52.605Z"}
+info: Connected to the database. {"timestamp":"2025-06-29T16:23:52.669Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-06-29T16:35:03.153Z"}
+info: Connected to the database. {"timestamp":"2025-06-29T16:35:03.355Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-06-29T16:41:11.209Z"}
+info: Connected to the database. {"timestamp":"2025-06-29T16:41:11.257Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-06-29T16:45:36.050Z"}
+info: Connected to the database. {"timestamp":"2025-06-29T16:45:36.109Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-06-29T16:49:45.007Z"}
+info: Connected to the database. {"timestamp":"2025-06-29T16:49:45.071Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-06-29T16:51:57.493Z"}
+info: Connected to the database. {"timestamp":"2025-06-29T16:51:57.530Z"}
+error: 
+    status - 500 
+    message - ReferenceError: bcrypt is not defined
+    at /Users/ashwinanand/fundoonotes/fundoonotes/src/services/user.service.js:61:68
+    at /Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:52:18
+    at Generator.<anonymous> (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/regenerator.js:52:51)
+    at Generator.next (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/regeneratorDefine.js:17:23)
+    at asyncGeneratorStep (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:17)
+    at _next (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:17:9)
+    at /Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:22:7
+    at new Promise (<anonymous>)
+    at Object.apply (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:14:12)
+    at Object.comparePassword (/Users/ashwinanand/fundoonotes/fundoonotes/src/services/user.service.js:61:29)
+    at /Users/ashwinanand/fundoonotes/fundoonotes/src/controllers/user.controller.js:144:37
+    at /Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:52:18
+    at Generator.<anonymous> (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/regenerator.js:52:51)
+    at Generator.next (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/regeneratorDefine.js:17:23)
+    at asyncGeneratorStep (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:17)
+    at _next (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:17:9)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-06-29T16:52:26.850Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-06-29T16:54:22.381Z"}
+info: Connected to the database. {"timestamp":"2025-06-29T16:54:22.421Z"}
+error: 
+    status - 500 
+    message - ReferenceError: bcrypt is not defined
+    at /Users/ashwinanand/fundoonotes/fundoonotes/src/services/user.service.js:61:68
+    at /Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:52:18
+    at Generator.<anonymous> (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/regenerator.js:52:51)
+    at Generator.next (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/regeneratorDefine.js:17:23)
+    at asyncGeneratorStep (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:17)
+    at _next (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:17:9)
+    at /Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:22:7
+    at new Promise (<anonymous>)
+    at Object.apply (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:14:12)
+    at Object.comparePassword (/Users/ashwinanand/fundoonotes/fundoonotes/src/services/user.service.js:61:29)
+    at /Users/ashwinanand/fundoonotes/fundoonotes/src/controllers/user.controller.js:144:37
+    at /Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:52:18
+    at Generator.<anonymous> (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/regenerator.js:52:51)
+    at Generator.next (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/regeneratorDefine.js:17:23)
+    at asyncGeneratorStep (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:17)
+    at _next (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:17:9)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-06-29T16:54:30.086Z"}
+error: 
+    status - 500 
+    message - ReferenceError: bcrypt is not defined
+    at /Users/ashwinanand/fundoonotes/fundoonotes/src/services/user.service.js:61:68
+    at /Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:52:18
+    at Generator.<anonymous> (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/regenerator.js:52:51)
+    at Generator.next (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/regeneratorDefine.js:17:23)
+    at asyncGeneratorStep (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:17)
+    at _next (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:17:9)
+    at /Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:22:7
+    at new Promise (<anonymous>)
+    at Object.apply (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:14:12)
+    at Object.comparePassword (/Users/ashwinanand/fundoonotes/fundoonotes/src/services/user.service.js:61:29)
+    at /Users/ashwinanand/fundoonotes/fundoonotes/src/controllers/user.controller.js:144:37
+    at /Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:52:18
+    at Generator.<anonymous> (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/regenerator.js:52:51)
+    at Generator.next (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/regeneratorDefine.js:17:23)
+    at asyncGeneratorStep (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:17)
+    at _next (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:17:9)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-06-29T16:54:31.183Z"}
+error: 
+    status - 500 
+    message - ReferenceError: bcrypt is not defined
+    at /Users/ashwinanand/fundoonotes/fundoonotes/src/services/user.service.js:61:68
+    at /Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:52:18
+    at Generator.<anonymous> (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/regenerator.js:52:51)
+    at Generator.next (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/regeneratorDefine.js:17:23)
+    at asyncGeneratorStep (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:17)
+    at _next (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:17:9)
+    at /Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:22:7
+    at new Promise (<anonymous>)
+    at Object.apply (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:14:12)
+    at Object.comparePassword (/Users/ashwinanand/fundoonotes/fundoonotes/src/services/user.service.js:61:29)
+    at /Users/ashwinanand/fundoonotes/fundoonotes/src/controllers/user.controller.js:144:37
+    at /Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:52:18
+    at Generator.<anonymous> (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/regenerator.js:52:51)
+    at Generator.next (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/regeneratorDefine.js:17:23)
+    at asyncGeneratorStep (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:17)
+    at _next (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:17:9)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-06-29T16:54:36.757Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-06-29T16:58:20.626Z"}
+info: Connected to the database. {"timestamp":"2025-06-29T16:58:20.667Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-06-29T17:00:57.726Z"}
+info: Connected to the database. {"timestamp":"2025-06-29T17:00:57.810Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-06-29T17:02:10.922Z"}
+info: Connected to the database. {"timestamp":"2025-06-29T17:02:10.959Z"}

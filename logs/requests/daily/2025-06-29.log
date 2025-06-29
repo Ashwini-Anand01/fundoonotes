@@ -1,0 +1,66 @@
+info: ::1 - - [29/Jun/2025:09:53:08 +0000] "GET /api/v1/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [29/Jun/2025:10:21:40 +0000] "DELETE /api/v1/users/1 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.44.1"
+
+info: ::1 - - [29/Jun/2025:10:22:02 +0000] "POST /api/v1/users/register HTTP/1.1" 500 22 "-" "PostmanRuntime/7.44.1"
+
+info: ::1 - - [29/Jun/2025:10:27:41 +0000] "POST /api/v1/users/register HTTP/1.1" 201 238 "-" "PostmanRuntime/7.44.1"
+
+info: ::1 - - [29/Jun/2025:10:27:51 +0000] "GET /api/v1/users/register HTTP/1.1" 400 56 "-" "PostmanRuntime/7.44.1"
+
+info: ::1 - - [29/Jun/2025:10:33:40 +0000] "GET /api/v1/users HTTP/1.1" 200 413 "-" "PostmanRuntime/7.44.1"
+
+info: ::1 - - [29/Jun/2025:10:33:54 +0000] "DELETE /api/v1/users/1 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.44.1"
+
+info: ::1 - - [29/Jun/2025:10:34:02 +0000] "DELETE /api/v1/users/1 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.44.1"
+
+info: ::1 - - [29/Jun/2025:10:34:03 +0000] "DELETE /api/v1/users/1 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.44.1"
+
+info: ::1 - - [29/Jun/2025:10:34:10 +0000] "GET /api/v1/users HTTP/1.1" 200 413 "-" "PostmanRuntime/7.44.1"
+
+info: ::1 - - [29/Jun/2025:15:40:39 +0000] "GET /api/v1/users HTTP/1.1" 200 413 "-" "PostmanRuntime/7.44.1"
+
+info: ::1 - - [29/Jun/2025:15:40:40 +0000] "GET /api/v1/users HTTP/1.1" 200 413 "-" "PostmanRuntime/7.44.1"
+
+info: ::1 - - [29/Jun/2025:15:43:34 +0000] "DELETE /api/v1/users/1 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.44.1"
+
+info: ::1 - - [29/Jun/2025:15:43:35 +0000] "DELETE /api/v1/users/1 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.44.1"
+
+info: ::1 - - [29/Jun/2025:15:43:43 +0000] "GET /api/v1/users/1 HTTP/1.1" 400 56 "-" "PostmanRuntime/7.44.1"
+
+info: ::1 - - [29/Jun/2025:15:44:14 +0000] "GET /api/v1/users/1 HTTP/1.1" 200 228 "-" "PostmanRuntime/7.44.1"
+
+info: ::1 - - [29/Jun/2025:15:44:21 +0000] "DELETE /api/v1/users/1 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.44.1"
+
+info: ::1 - - [29/Jun/2025:15:44:26 +0000] "GET /api/v1/users/1 HTTP/1.1" 200 228 "-" "PostmanRuntime/7.44.1"
+
+info: ::1 - - [29/Jun/2025:15:44:31 +0000] "GET /api/v1/users HTTP/1.1" 200 413 "-" "PostmanRuntime/7.44.1"
+
+info: ::1 - - [29/Jun/2025:15:45:54 +0000] "GET /api/v1/users/1 HTTP/1.1" 200 228 "-" "PostmanRuntime/7.44.1"
+
+info: ::1 - - [29/Jun/2025:15:46:03 +0000] "DELETE /api/v1/users/1 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.44.1"
+
+info: ::1 - - [29/Jun/2025:15:46:07 +0000] "DELETE /api/v1/users/2 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.44.1"
+
+info: ::1 - - [29/Jun/2025:15:46:12 +0000] "GET /api/v1/users/2 HTTP/1.1" 200 62 "-" "PostmanRuntime/7.44.1"
+
+info: ::1 - - [29/Jun/2025:15:46:54 +0000] "POST /api/v1/users/2 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.44.1"
+
+info: ::1 - - [29/Jun/2025:15:47:05 +0000] "POST /api/v1/users/register HTTP/1.1" 201 292 "-" "PostmanRuntime/7.44.1"
+
+info: ::1 - - [29/Jun/2025:16:24:21 +0000] "POST /api/v1/users/loginuser HTTP/1.1" 404 47 "-" "PostmanRuntime/7.44.1"
+
+info: ::1 - - [29/Jun/2025:16:46:03 +0000] "POST /api/v1/users/loginuser HTTP/1.1" 404 47 "-" "PostmanRuntime/7.44.1"
+
+info: ::1 - - [29/Jun/2025:16:46:05 +0000] "POST /api/v1/users/loginuser HTTP/1.1" 404 47 "-" "PostmanRuntime/7.44.1"
+
+info: ::1 - - [29/Jun/2025:16:52:26 +0000] "POST /api/v1/users/login HTTP/1.1" 500 56 "-" "PostmanRuntime/7.44.1"
+
+info: ::1 - - [29/Jun/2025:16:54:30 +0000] "POST /api/v1/users/login HTTP/1.1" 500 56 "-" "PostmanRuntime/7.44.1"
+
+info: ::1 - - [29/Jun/2025:16:54:31 +0000] "POST /api/v1/users/login HTTP/1.1" 500 56 "-" "PostmanRuntime/7.44.1"
+
+info: ::1 - - [29/Jun/2025:16:54:36 +0000] "POST /api/v1/users/login HTTP/1.1" 500 56 "-" "PostmanRuntime/7.44.1"
+
+info: ::1 - - [29/Jun/2025:16:58:24 +0000] "POST /api/v1/users/login HTTP/1.1" 200 128 "-" "PostmanRuntime/7.44.1"
+

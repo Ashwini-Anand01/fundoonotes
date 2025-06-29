@@ -1,0 +1,87 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-06-28T09:23:58.311Z"}
+info: Connected to the database. {"timestamp":"2025-06-28T09:23:58.380Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-06-28T09:32:06.086Z"}
+info: Connected to the database. {"timestamp":"2025-06-28T09:32:06.148Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-06-28T09:34:48.914Z"}
+info: Connected to the database. {"timestamp":"2025-06-28T09:34:48.975Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-06-28T09:35:38.077Z"}
+info: Connected to the database. {"timestamp":"2025-06-28T09:35:38.122Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/sequelize/src/dialects/postgres/query.js:76:25)
+    at /Users/ashwinanand/fundoonotes/fundoonotes/node_modules/sequelize/src/sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at PostgresQueryInterface.select (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/sequelize/src/dialects/abstract/query-interface.js:1001:12)
+    at Function.findAll (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/sequelize/src/model.js:1824:21) 
+    url - /api/v1/users 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2025-06-28T09:37:06.889Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-06-28T09:39:44.832Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-06-28T09:39:48.544Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-06-28T09:40:29.519Z"}
+info: Connected to the database. {"timestamp":"2025-06-28T09:40:29.554Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" is required 
+    url - /api/v1/users/add 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-06-28T09:40:36.657Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-06-28T09:41:09.410Z"}
+info: Connected to the database. {"timestamp":"2025-06-28T09:41:09.454Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-06-28T09:41:11.686Z"}
+info: Connected to the database. {"timestamp":"2025-06-28T09:41:11.720Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" is required 
+    url - /api/v1/users/add 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-06-28T09:41:17.652Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" is required 
+    url - /api/v1/users/add 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-06-28T09:45:34.945Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-06-28T09:51:35.636Z"}
+info: Connected to the database. {"timestamp":"2025-06-28T09:51:35.737Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" is not allowed 
+    url - /api/v1/users/add 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-06-28T09:52:03.764Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-06-28T09:54:20.455Z"}
+info: Connected to the database. {"timestamp":"2025-06-28T09:54:20.522Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-06-28T09:55:12.895Z"}
+info: Connected to the database. {"timestamp":"2025-06-28T09:55:12.946Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/sequelize/src/dialects/postgres/query.js:76:25)
+    at /Users/ashwinanand/fundoonotes/fundoonotes/node_modules/sequelize/src/sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at PostgresQueryInterface.insert (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/sequelize/src/dialects/abstract/query-interface.js:795:21)
+    at user.save (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/sequelize/src/model.js:4154:35)
+    at Function.create (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/sequelize/src/model.js:2305:12) 
+    url - /api/v1/users/add 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-06-28T09:55:17.213Z"}

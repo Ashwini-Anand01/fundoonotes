@@ -1,0 +1,326 @@
+error: uncaughtException: Please install pg package manually
+Error: Please install pg package manually
+    at ConnectionManager._loadDialectModule (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/sequelize/src/dialects/abstract/connection-manager.js:81:15)
+    at new ConnectionManager (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/sequelize/src/dialects/postgres/connection-manager.js:18:24)
+    at new PostgresDialect (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/sequelize/src/dialects/postgres/index.js:15:30)
+    at new Sequelize (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/sequelize/src/sequelize.js:368:20)
+    at Object.<anonymous> (/Users/ashwinanand/fundoonotes/fundoonotes/src/config/database.js:25:19)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Module._compile (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/pirates/lib/index.js:129:24)
+    at node:internal/modules/cjs/loader:1895:10
+    at Object.newLoader [as .js] (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/pirates/lib/index.js:134:7)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1487:12)
+    at require (node:internal/modules/helpers:135:16)
+    at Object.<anonymous> (/Users/ashwinanand/fundoonotes/fundoonotes/src/services/user.service.js:1:1)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Module._compile (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/pirates/lib/index.js:129:24)
+    at node:internal/modules/cjs/loader:1895:10
+    at Object.newLoader [as .js] (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/pirates/lib/index.js:134:7)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1487:12)
+    at require (node:internal/modules/helpers:135:16)
+    at Object.<anonymous> (/Users/ashwinanand/fundoonotes/fundoonotes/src/controllers/user.controller.js:2:1)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Module._compile (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/pirates/lib/index.js:129:24)
+    at node:internal/modules/cjs/loader:1895:10
+    at Object.newLoader [as .js] (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/pirates/lib/index.js:134:7)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1487:12)
+    at require (node:internal/modules/helpers:135:16)
+    at Object.<anonymous> (/Users/ashwinanand/fundoonotes/fundoonotes/src/routes/user.route.js:2:1)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Module._compile (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/pirates/lib/index.js:129:24)
+    at node:internal/modules/cjs/loader:1895:10
+    at Object.newLoader [as .js] (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/pirates/lib/index.js:134:7)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1487:12)
+    at require (node:internal/modules/helpers:135:16)
+    at Object.<anonymous> (/Users/ashwinanand/fundoonotes/fundoonotes/src/routes/index.js:4:1)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14) {"date":"Sat Jun 28 2025 14:50:50 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[1.4765625,1.9814453125,2.3818359375],"uptime":25903791},"process":{"argv":["node","/Users/ashwinanand/fundoonotes/fundoonotes/src/index.js"],"cwd":"/Users/ashwinanand/fundoonotes/fundoonotes","execPath":"/usr/local/bin/node","gid":20,"memoryUsage":{"arrayBuffers":76274,"external":4036236,"heapTotal":95961088,"heapUsed":64281800,"rss":161202176},"pid":14524,"uid":501,"version":"v22.17.0"},"stack":"Error: Please install pg package manually\n    at ConnectionManager._loadDialectModule (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/sequelize/src/dialects/abstract/connection-manager.js:81:15)\n    at new ConnectionManager (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/sequelize/src/dialects/postgres/connection-manager.js:18:24)\n    at new PostgresDialect (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/sequelize/src/dialects/postgres/index.js:15:30)\n    at new Sequelize (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/sequelize/src/sequelize.js:368:20)\n    at Object.<anonymous> (/Users/ashwinanand/fundoonotes/fundoonotes/src/config/database.js:25:19)\n    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n    at Module._compile (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/pirates/lib/index.js:129:24)\n    at node:internal/modules/cjs/loader:1895:10\n    at Object.newLoader [as .js] (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/pirates/lib/index.js:134:7)\n    at Module.load (node:internal/modules/cjs/loader:1465:32)\n    at Function._load (node:internal/modules/cjs/loader:1282:12)\n    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n    at Module.require (node:internal/modules/cjs/loader:1487:12)\n    at require (node:internal/modules/helpers:135:16)\n    at Object.<anonymous> (/Users/ashwinanand/fundoonotes/fundoonotes/src/services/user.service.js:1:1)\n    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n    at Module._compile (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/pirates/lib/index.js:129:24)\n    at node:internal/modules/cjs/loader:1895:10\n    at Object.newLoader [as .js] (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/pirates/lib/index.js:134:7)\n    at Module.load (node:internal/modules/cjs/loader:1465:32)\n    at Function._load (node:internal/modules/cjs/loader:1282:12)\n    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n    at Module.require (node:internal/modules/cjs/loader:1487:12)\n    at require (node:internal/modules/helpers:135:16)\n    at Object.<anonymous> (/Users/ashwinanand/fundoonotes/fundoonotes/src/controllers/user.controller.js:2:1)\n    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n    at Module._compile (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/pirates/lib/index.js:129:24)\n    at node:internal/modules/cjs/loader:1895:10\n    at Object.newLoader [as .js] (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/pirates/lib/index.js:134:7)\n    at Module.load (node:internal/modules/cjs/loader:1465:32)\n    at Function._load (node:internal/modules/cjs/loader:1282:12)\n    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n    at Module.require (node:internal/modules/cjs/loader:1487:12)\n    at require (node:internal/modules/helpers:135:16)\n    at Object.<anonymous> (/Users/ashwinanand/fundoonotes/fundoonotes/src/routes/user.route.js:2:1)\n    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n    at Module._compile (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/pirates/lib/index.js:129:24)\n    at node:internal/modules/cjs/loader:1895:10\n    at Object.newLoader [as .js] (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/pirates/lib/index.js:134:7)\n    at Module.load (node:internal/modules/cjs/loader:1465:32)\n    at Function._load (node:internal/modules/cjs/loader:1282:12)\n    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n    at Module.require (node:internal/modules/cjs/loader:1487:12)\n    at require (node:internal/modules/helpers:135:16)\n    at Object.<anonymous> (/Users/ashwinanand/fundoonotes/fundoonotes/src/routes/index.js:4:1)\n    at Module._compile (node:internal/modules/cjs/loader:1730:14)","timestamp":"2025-06-28T09:20:50.376Z","trace":[{"column":15,"file":"/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/sequelize/src/dialects/abstract/connection-manager.js","function":"ConnectionManager._loadDialectModule","line":81,"method":"_loadDialectModule","native":false},{"column":24,"file":"/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/sequelize/src/dialects/postgres/connection-manager.js","function":"new ConnectionManager","line":18,"method":null,"native":false},{"column":30,"file":"/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/sequelize/src/dialects/postgres/index.js","function":"new PostgresDialect","line":15,"method":null,"native":false},{"column":20,"file":"/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/sequelize/src/sequelize.js","function":"new Sequelize","line":368,"method":null,"native":false},{"column":19,"file":"/Users/ashwinanand/fundoonotes/fundoonotes/src/config/database.js","function":null,"line":25,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1730,"method":"_compile","native":false},{"column":24,"file":"/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/pirates/lib/index.js","function":"Module._compile","line":129,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":null,"line":1895,"method":null,"native":false},{"column":7,"file":"/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/pirates/lib/index.js","function":"Object.newLoader [as .js]","line":134,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1465,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Function._load","line":1282,"method":"_load","native":false},{"column":14,"file":"node:diagnostics_channel","function":"TracingChannel.traceSync","line":322,"method":"traceSync","native":false},{"column":24,"file":"node:internal/modules/cjs/loader","function":"wrapModuleLoad","line":235,"method":null,"native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1487,"method":"require","native":false},{"column":16,"file":"node:internal/modules/helpers","function":"require","line":135,"method":null,"native":false},{"column":1,"file":"/Users/ashwinanand/fundoonotes/fundoonotes/src/services/user.service.js","function":null,"line":1,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1730,"method":"_compile","native":false},{"column":24,"file":"/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/pirates/lib/index.js","function":"Module._compile","line":129,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":null,"line":1895,"method":null,"native":false},{"column":7,"file":"/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/pirates/lib/index.js","function":"Object.newLoader [as .js]","line":134,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1465,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Function._load","line":1282,"method":"_load","native":false},{"column":14,"file":"node:diagnostics_channel","function":"TracingChannel.traceSync","line":322,"method":"traceSync","native":false},{"column":24,"file":"node:internal/modules/cjs/loader","function":"wrapModuleLoad","line":235,"method":null,"native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1487,"method":"require","native":false},{"column":16,"file":"node:internal/modules/helpers","function":"require","line":135,"method":null,"native":false},{"column":1,"file":"/Users/ashwinanand/fundoonotes/fundoonotes/src/controllers/user.controller.js","function":null,"line":2,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1730,"method":"_compile","native":false},{"column":24,"file":"/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/pirates/lib/index.js","function":"Module._compile","line":129,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":null,"line":1895,"method":null,"native":false},{"column":7,"file":"/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/pirates/lib/index.js","function":"Object.newLoader [as .js]","line":134,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1465,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Function._load","line":1282,"method":"_load","native":false},{"column":14,"file":"node:diagnostics_channel","function":"TracingChannel.traceSync","line":322,"method":"traceSync","native":false},{"column":24,"file":"node:internal/modules/cjs/loader","function":"wrapModuleLoad","line":235,"method":null,"native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1487,"method":"require","native":false},{"column":16,"file":"node:internal/modules/helpers","function":"require","line":135,"method":null,"native":false},{"column":1,"file":"/Users/ashwinanand/fundoonotes/fundoonotes/src/routes/user.route.js","function":null,"line":2,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1730,"method":"_compile","native":false},{"column":24,"file":"/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/pirates/lib/index.js","function":"Module._compile","line":129,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":null,"line":1895,"method":null,"native":false},{"column":7,"file":"/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/pirates/lib/index.js","function":"Object.newLoader [as .js]","line":134,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1465,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Function._load","line":1282,"method":"_load","native":false},{"column":14,"file":"node:diagnostics_channel","function":"TracingChannel.traceSync","line":322,"method":"traceSync","native":false},{"column":24,"file":"node:internal/modules/cjs/loader","function":"wrapModuleLoad","line":235,"method":null,"native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1487,"method":"require","native":false},{"column":16,"file":"node:internal/modules/helpers","function":"require","line":135,"method":null,"native":false},{"column":1,"file":"/Users/ashwinanand/fundoonotes/fundoonotes/src/routes/index.js","function":null,"line":4,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1730,"method":"_compile","native":false}]}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/sequelize/src/dialects/postgres/query.js:76:25)
+    at /Users/ashwinanand/fundoonotes/fundoonotes/node_modules/sequelize/src/sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at PostgresQueryInterface.select (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/sequelize/src/dialects/abstract/query-interface.js:1001:12)
+    at Function.findAll (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/sequelize/src/model.js:1824:21) 
+    url - /api/v1/users 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2025-06-28T09:37:06.889Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-06-28T09:39:44.832Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-06-28T09:39:48.544Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" is required 
+    url - /api/v1/users/add 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-06-28T09:40:36.657Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" is required 
+    url - /api/v1/users/add 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-06-28T09:41:17.652Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" is required 
+    url - /api/v1/users/add 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-06-28T09:45:34.945Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" is not allowed 
+    url - /api/v1/users/add 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-06-28T09:52:03.764Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/sequelize/src/dialects/postgres/query.js:76:25)
+    at /Users/ashwinanand/fundoonotes/fundoonotes/node_modules/sequelize/src/sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at PostgresQueryInterface.insert (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/sequelize/src/dialects/abstract/query-interface.js:795:21)
+    at user.save (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/sequelize/src/model.js:4154:35)
+    at Function.create (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/sequelize/src/model.js:2305:12) 
+    url - /api/v1/users/add 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-06-28T09:55:17.213Z"}
+error: uncaughtException: Unrecognized datatype for attribute "user.email"
+Error: Unrecognized datatype for attribute "user.email"
+    at /Users/ashwinanand/fundoonotes/fundoonotes/node_modules/sequelize/src/model.js:1046:15
+    at /Users/ashwinanand/fundoonotes/fundoonotes/node_modules/lodash/lodash.js:13469:38
+    at /Users/ashwinanand/fundoonotes/fundoonotes/node_modules/lodash/lodash.js:4967:15
+    at baseForOwn (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/lodash/lodash.js:3032:24)
+    at Function.mapValues (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/lodash/lodash.js:13468:7)
+    at Function.init (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/sequelize/src/model.js:1042:28)
+    at module.exports (/Users/ashwinanand/fundoonotes/fundoonotes/src/models/user.js:14:8)
+    at Object.<anonymous> (/Users/ashwinanand/fundoonotes/fundoonotes/src/services/user.service.js:2:39)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Module._compile (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/pirates/lib/index.js:129:24)
+    at node:internal/modules/cjs/loader:1895:10
+    at Object.newLoader [as .js] (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/pirates/lib/index.js:134:7)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1487:12)
+    at require (node:internal/modules/helpers:135:16)
+    at Object.<anonymous> (/Users/ashwinanand/fundoonotes/fundoonotes/src/controllers/user.controller.js:2:1)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Module._compile (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/pirates/lib/index.js:129:24)
+    at node:internal/modules/cjs/loader:1895:10
+    at Object.newLoader [as .js] (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/pirates/lib/index.js:134:7)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1487:12)
+    at require (node:internal/modules/helpers:135:16)
+    at Object.<anonymous> (/Users/ashwinanand/fundoonotes/fundoonotes/src/routes/user.route.js:2:1)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Module._compile (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/pirates/lib/index.js:129:24)
+    at node:internal/modules/cjs/loader:1895:10
+    at Object.newLoader [as .js] (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/pirates/lib/index.js:134:7)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1487:12)
+    at require (node:internal/modules/helpers:135:16)
+    at Object.<anonymous> (/Users/ashwinanand/fundoonotes/fundoonotes/src/routes/index.js:4:1)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Module._compile (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/pirates/lib/index.js:129:24)
+    at node:internal/modules/cjs/loader:1895:10
+    at Object.newLoader [as .js] (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/pirates/lib/index.js:134:7)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1487:12) {"date":"Sun Jun 29 2025 15:16:42 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[2.705078125,3.19921875,3.64208984375],"uptime":25991746},"process":{"argv":["node","/Users/ashwinanand/fundoonotes/fundoonotes/src/index.js"],"cwd":"/Users/ashwinanand/fundoonotes/fundoonotes","execPath":"/usr/local/bin/node","gid":20,"memoryUsage":{"arrayBuffers":68082,"external":4064857,"heapTotal":90390528,"heapUsed":61043224,"rss":156712960},"pid":17759,"uid":501,"version":"v22.17.0"},"stack":"Error: Unrecognized datatype for attribute \"user.email\"\n    at /Users/ashwinanand/fundoonotes/fundoonotes/node_modules/sequelize/src/model.js:1046:15\n    at /Users/ashwinanand/fundoonotes/fundoonotes/node_modules/lodash/lodash.js:13469:38\n    at /Users/ashwinanand/fundoonotes/fundoonotes/node_modules/lodash/lodash.js:4967:15\n    at baseForOwn (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/lodash/lodash.js:3032:24)\n    at Function.mapValues (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/lodash/lodash.js:13468:7)\n    at Function.init (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/sequelize/src/model.js:1042:28)\n    at module.exports (/Users/ashwinanand/fundoonotes/fundoonotes/src/models/user.js:14:8)\n    at Object.<anonymous> (/Users/ashwinanand/fundoonotes/fundoonotes/src/services/user.service.js:2:39)\n    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n    at Module._compile (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/pirates/lib/index.js:129:24)\n    at node:internal/modules/cjs/loader:1895:10\n    at Object.newLoader [as .js] (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/pirates/lib/index.js:134:7)\n    at Module.load (node:internal/modules/cjs/loader:1465:32)\n    at Function._load (node:internal/modules/cjs/loader:1282:12)\n    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n    at Module.require (node:internal/modules/cjs/loader:1487:12)\n    at require (node:internal/modules/helpers:135:16)\n    at Object.<anonymous> (/Users/ashwinanand/fundoonotes/fundoonotes/src/controllers/user.controller.js:2:1)\n    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n    at Module._compile (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/pirates/lib/index.js:129:24)\n    at node:internal/modules/cjs/loader:1895:10\n    at Object.newLoader [as .js] (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/pirates/lib/index.js:134:7)\n    at Module.load (node:internal/modules/cjs/loader:1465:32)\n    at Function._load (node:internal/modules/cjs/loader:1282:12)\n    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n    at Module.require (node:internal/modules/cjs/loader:1487:12)\n    at require (node:internal/modules/helpers:135:16)\n    at Object.<anonymous> (/Users/ashwinanand/fundoonotes/fundoonotes/src/routes/user.route.js:2:1)\n    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n    at Module._compile (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/pirates/lib/index.js:129:24)\n    at node:internal/modules/cjs/loader:1895:10\n    at Object.newLoader [as .js] (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/pirates/lib/index.js:134:7)\n    at Module.load (node:internal/modules/cjs/loader:1465:32)\n    at Function._load (node:internal/modules/cjs/loader:1282:12)\n    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n    at Module.require (node:internal/modules/cjs/loader:1487:12)\n    at require (node:internal/modules/helpers:135:16)\n    at Object.<anonymous> (/Users/ashwinanand/fundoonotes/fundoonotes/src/routes/index.js:4:1)\n    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n    at Module._compile (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/pirates/lib/index.js:129:24)\n    at node:internal/modules/cjs/loader:1895:10\n    at Object.newLoader [as .js] (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/pirates/lib/index.js:134:7)\n    at Module.load (node:internal/modules/cjs/loader:1465:32)\n    at Function._load (node:internal/modules/cjs/loader:1282:12)\n    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n    at Module.require (node:internal/modules/cjs/loader:1487:12)","timestamp":"2025-06-29T09:46:42.334Z","trace":[{"column":15,"file":"/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/sequelize/src/model.js","function":null,"line":1046,"method":null,"native":false},{"column":38,"file":"/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/lodash/lodash.js","function":null,"line":13469,"method":null,"native":false},{"column":15,"file":"/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/lodash/lodash.js","function":null,"line":4967,"method":null,"native":false},{"column":24,"file":"/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/lodash/lodash.js","function":"baseForOwn","line":3032,"method":null,"native":false},{"column":7,"file":"/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/lodash/lodash.js","function":"Function.mapValues","line":13468,"method":"mapValues","native":false},{"column":28,"file":"/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/sequelize/src/model.js","function":"Function.init","line":1042,"method":"init","native":false},{"column":8,"file":"/Users/ashwinanand/fundoonotes/fundoonotes/src/models/user.js","function":"module.exports","line":14,"method":"exports","native":false},{"column":39,"file":"/Users/ashwinanand/fundoonotes/fundoonotes/src/services/user.service.js","function":null,"line":2,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1730,"method":"_compile","native":false},{"column":24,"file":"/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/pirates/lib/index.js","function":"Module._compile","line":129,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":null,"line":1895,"method":null,"native":false},{"column":7,"file":"/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/pirates/lib/index.js","function":"Object.newLoader [as .js]","line":134,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1465,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Function._load","line":1282,"method":"_load","native":false},{"column":14,"file":"node:diagnostics_channel","function":"TracingChannel.traceSync","line":322,"method":"traceSync","native":false},{"column":24,"file":"node:internal/modules/cjs/loader","function":"wrapModuleLoad","line":235,"method":null,"native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1487,"method":"require","native":false},{"column":16,"file":"node:internal/modules/helpers","function":"require","line":135,"method":null,"native":false},{"column":1,"file":"/Users/ashwinanand/fundoonotes/fundoonotes/src/controllers/user.controller.js","function":null,"line":2,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1730,"method":"_compile","native":false},{"column":24,"file":"/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/pirates/lib/index.js","function":"Module._compile","line":129,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":null,"line":1895,"method":null,"native":false},{"column":7,"file":"/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/pirates/lib/index.js","function":"Object.newLoader [as .js]","line":134,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1465,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Function._load","line":1282,"method":"_load","native":false},{"column":14,"file":"node:diagnostics_channel","function":"TracingChannel.traceSync","line":322,"method":"traceSync","native":false},{"column":24,"file":"node:internal/modules/cjs/loader","function":"wrapModuleLoad","line":235,"method":null,"native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1487,"method":"require","native":false},{"column":16,"file":"node:internal/modules/helpers","function":"require","line":135,"method":null,"native":false},{"column":1,"file":"/Users/ashwinanand/fundoonotes/fundoonotes/src/routes/user.route.js","function":null,"line":2,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1730,"method":"_compile","native":false},{"column":24,"file":"/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/pirates/lib/index.js","function":"Module._compile","line":129,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":null,"line":1895,"method":null,"native":false},{"column":7,"file":"/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/pirates/lib/index.js","function":"Object.newLoader [as .js]","line":134,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1465,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Function._load","line":1282,"method":"_load","native":false},{"column":14,"file":"node:diagnostics_channel","function":"TracingChannel.traceSync","line":322,"method":"traceSync","native":false},{"column":24,"file":"node:internal/modules/cjs/loader","function":"wrapModuleLoad","line":235,"method":null,"native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1487,"method":"require","native":false},{"column":16,"file":"node:internal/modules/helpers","function":"require","line":135,"method":null,"native":false},{"column":1,"file":"/Users/ashwinanand/fundoonotes/fundoonotes/src/routes/index.js","function":null,"line":4,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1730,"method":"_compile","native":false},{"column":24,"file":"/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/pirates/lib/index.js","function":"Module._compile","line":129,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":null,"line":1895,"method":null,"native":false},{"column":7,"file":"/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/pirates/lib/index.js","function":"Object.newLoader [as .js]","line":134,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1465,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Function._load","line":1282,"method":"_load","native":false},{"column":14,"file":"node:diagnostics_channel","function":"TracingChannel.traceSync","line":322,"method":"traceSync","native":false},{"column":24,"file":"node:internal/modules/cjs/loader","function":"wrapModuleLoad","line":235,"method":null,"native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1487,"method":"require","native":false}]}
+error: uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/express/lib/router/route.js:216:15)
+    at Function.post (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/Users/ashwinanand/fundoonotes/fundoonotes/src/routes/user.route.js:24:8)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Module._compile (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/pirates/lib/index.js:129:24)
+    at node:internal/modules/cjs/loader:1895:10
+    at Object.newLoader [as .js] (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/pirates/lib/index.js:134:7)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1487:12)
+    at require (node:internal/modules/helpers:135:16)
+    at Object.<anonymous> (/Users/ashwinanand/fundoonotes/fundoonotes/src/routes/index.js:4:1)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Module._compile (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/pirates/lib/index.js:129:24)
+    at node:internal/modules/cjs/loader:1895:10
+    at Object.newLoader [as .js] (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/pirates/lib/index.js:134:7)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1487:12)
+    at require (node:internal/modules/helpers:135:16)
+    at Object.<anonymous> (/Users/ashwinanand/fundoonotes/fundoonotes/src/index.js:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Module._compile (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/pirates/lib/index.js:129:24)
+    at node:internal/modules/cjs/loader:1895:10
+    at Object.newLoader [as .js] (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/pirates/lib/index.js:134:7)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Function.runMain (node:internal/modules/run_main:171:5)
+    at Object.<anonymous> (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/node/src/_babel-node.ts:159:12)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object.<anonymous> (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+    at node:internal/main/run_main_module:36:49 {"date":"Sun Jun 29 2025 15:29:26 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[2.27978515625,2.326171875,2.810546875],"uptime":25992510},"process":{"argv":["node","/Users/ashwinanand/fundoonotes/fundoonotes/src/index.js"],"cwd":"/Users/ashwinanand/fundoonotes/fundoonotes","execPath":"/usr/local/bin/node","gid":20,"memoryUsage":{"arrayBuffers":92658,"external":4073049,"heapTotal":92028928,"heapUsed":70561232,"rss":155942912},"pid":18226,"uid":501,"version":"v22.17.0"},"stack":"Error: Route.post() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as post] (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/express/lib/router/route.js:216:15)\n    at Function.post (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/express/lib/router/index.js:521:19)\n    at Object.<anonymous> (/Users/ashwinanand/fundoonotes/fundoonotes/src/routes/user.route.js:24:8)\n    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n    at Module._compile (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/pirates/lib/index.js:129:24)\n    at node:internal/modules/cjs/loader:1895:10\n    at Object.newLoader [as .js] (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/pirates/lib/index.js:134:7)\n    at Module.load (node:internal/modules/cjs/loader:1465:32)\n    at Function._load (node:internal/modules/cjs/loader:1282:12)\n    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n    at Module.require (node:internal/modules/cjs/loader:1487:12)\n    at require (node:internal/modules/helpers:135:16)\n    at Object.<anonymous> (/Users/ashwinanand/fundoonotes/fundoonotes/src/routes/index.js:4:1)\n    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n    at Module._compile (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/pirates/lib/index.js:129:24)\n    at node:internal/modules/cjs/loader:1895:10\n    at Object.newLoader [as .js] (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/pirates/lib/index.js:134:7)\n    at Module.load (node:internal/modules/cjs/loader:1465:32)\n    at Function._load (node:internal/modules/cjs/loader:1282:12)\n    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n    at Module.require (node:internal/modules/cjs/loader:1487:12)\n    at require (node:internal/modules/helpers:135:16)\n    at Object.<anonymous> (/Users/ashwinanand/fundoonotes/fundoonotes/src/index.js:8:1)\n    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n    at Module._compile (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/pirates/lib/index.js:129:24)\n    at node:internal/modules/cjs/loader:1895:10\n    at Object.newLoader [as .js] (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/pirates/lib/index.js:134:7)\n    at Module.load (node:internal/modules/cjs/loader:1465:32)\n    at Function._load (node:internal/modules/cjs/loader:1282:12)\n    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n    at Function.runMain (node:internal/modules/run_main:171:5)\n    at Object.<anonymous> (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/node/src/_babel-node.ts:159:12)\n    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n    at Object.<anonymous> (node:internal/modules/cjs/loader:1895:10)\n    at Module.load (node:internal/modules/cjs/loader:1465:32)\n    at Function._load (node:internal/modules/cjs/loader:1282:12)\n    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n    at node:internal/main/run_main_module:36:49","timestamp":"2025-06-29T09:59:26.025Z","trace":[{"column":15,"file":"/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/express/lib/router/route.js","function":"Route.<computed> [as post]","line":216,"method":"<computed> [as post]","native":false},{"column":19,"file":"/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/express/lib/router/index.js","function":"Function.post","line":521,"method":"post","native":false},{"column":8,"file":"/Users/ashwinanand/fundoonotes/fundoonotes/src/routes/user.route.js","function":null,"line":24,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1730,"method":"_compile","native":false},{"column":24,"file":"/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/pirates/lib/index.js","function":"Module._compile","line":129,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":null,"line":1895,"method":null,"native":false},{"column":7,"file":"/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/pirates/lib/index.js","function":"Object.newLoader [as .js]","line":134,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1465,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Function._load","line":1282,"method":"_load","native":false},{"column":14,"file":"node:diagnostics_channel","function":"TracingChannel.traceSync","line":322,"method":"traceSync","native":false},{"column":24,"file":"node:internal/modules/cjs/loader","function":"wrapModuleLoad","line":235,"method":null,"native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1487,"method":"require","native":false},{"column":16,"file":"node:internal/modules/helpers","function":"require","line":135,"method":null,"native":false},{"column":1,"file":"/Users/ashwinanand/fundoonotes/fundoonotes/src/routes/index.js","function":null,"line":4,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1730,"method":"_compile","native":false},{"column":24,"file":"/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/pirates/lib/index.js","function":"Module._compile","line":129,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":null,"line":1895,"method":null,"native":false},{"column":7,"file":"/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/pirates/lib/index.js","function":"Object.newLoader [as .js]","line":134,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1465,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Function._load","line":1282,"method":"_load","native":false},{"column":14,"file":"node:diagnostics_channel","function":"TracingChannel.traceSync","line":322,"method":"traceSync","native":false},{"column":24,"file":"node:internal/modules/cjs/loader","function":"wrapModuleLoad","line":235,"method":null,"native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1487,"method":"require","native":false},{"column":16,"file":"node:internal/modules/helpers","function":"require","line":135,"method":null,"native":false},{"column":1,"file":"/Users/ashwinanand/fundoonotes/fundoonotes/src/index.js","function":null,"line":8,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1730,"method":"_compile","native":false},{"column":24,"file":"/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/pirates/lib/index.js","function":"Module._compile","line":129,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":null,"line":1895,"method":null,"native":false},{"column":7,"file":"/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/pirates/lib/index.js","function":"Object.newLoader [as .js]","line":134,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1465,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Function._load","line":1282,"method":"_load","native":false},{"column":14,"file":"node:diagnostics_channel","function":"TracingChannel.traceSync","line":322,"method":"traceSync","native":false},{"column":24,"file":"node:internal/modules/cjs/loader","function":"wrapModuleLoad","line":235,"method":null,"native":false},{"column":5,"file":"node:internal/modules/run_main","function":"Function.runMain","line":171,"method":"runMain","native":false},{"column":12,"file":"/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/node/src/_babel-node.ts","function":null,"line":159,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1730,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":null,"line":1895,"method":null,"native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1465,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Function._load","line":1282,"method":"_load","native":false},{"column":14,"file":"node:diagnostics_channel","function":"TracingChannel.traceSync","line":322,"method":"traceSync","native":false},{"column":24,"file":"node:internal/modules/cjs/loader","function":"wrapModuleLoad","line":235,"method":null,"native":false},{"column":5,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":171,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":49,"file":"node:internal/main/run_main_module","function":null,"line":36,"method":null,"native":false}]}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/register 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2025-06-29T10:27:51.285Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/1 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2025-06-29T15:43:43.325Z"}
+error: 
+    status - 500 
+    message - ReferenceError: bcrypt is not defined
+    at /Users/ashwinanand/fundoonotes/fundoonotes/src/services/user.service.js:61:68
+    at /Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:52:18
+    at Generator.<anonymous> (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/regenerator.js:52:51)
+    at Generator.next (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/regeneratorDefine.js:17:23)
+    at asyncGeneratorStep (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:17)
+    at _next (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:17:9)
+    at /Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:22:7
+    at new Promise (<anonymous>)
+    at Object.apply (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:14:12)
+    at Object.comparePassword (/Users/ashwinanand/fundoonotes/fundoonotes/src/services/user.service.js:61:29)
+    at /Users/ashwinanand/fundoonotes/fundoonotes/src/controllers/user.controller.js:144:37
+    at /Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:52:18
+    at Generator.<anonymous> (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/regenerator.js:52:51)
+    at Generator.next (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/regeneratorDefine.js:17:23)
+    at asyncGeneratorStep (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:17)
+    at _next (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:17:9)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-06-29T16:52:26.850Z"}
+error: 
+    status - 500 
+    message - ReferenceError: bcrypt is not defined
+    at /Users/ashwinanand/fundoonotes/fundoonotes/src/services/user.service.js:61:68
+    at /Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:52:18
+    at Generator.<anonymous> (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/regenerator.js:52:51)
+    at Generator.next (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/regeneratorDefine.js:17:23)
+    at asyncGeneratorStep (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:17)
+    at _next (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:17:9)
+    at /Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:22:7
+    at new Promise (<anonymous>)
+    at Object.apply (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:14:12)
+    at Object.comparePassword (/Users/ashwinanand/fundoonotes/fundoonotes/src/services/user.service.js:61:29)
+    at /Users/ashwinanand/fundoonotes/fundoonotes/src/controllers/user.controller.js:144:37
+    at /Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:52:18
+    at Generator.<anonymous> (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/regenerator.js:52:51)
+    at Generator.next (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/regeneratorDefine.js:17:23)
+    at asyncGeneratorStep (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:17)
+    at _next (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:17:9)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-06-29T16:54:30.086Z"}
+error: 
+    status - 500 
+    message - ReferenceError: bcrypt is not defined
+    at /Users/ashwinanand/fundoonotes/fundoonotes/src/services/user.service.js:61:68
+    at /Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:52:18
+    at Generator.<anonymous> (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/regenerator.js:52:51)
+    at Generator.next (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/regeneratorDefine.js:17:23)
+    at asyncGeneratorStep (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:17)
+    at _next (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:17:9)
+    at /Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:22:7
+    at new Promise (<anonymous>)
+    at Object.apply (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:14:12)
+    at Object.comparePassword (/Users/ashwinanand/fundoonotes/fundoonotes/src/services/user.service.js:61:29)
+    at /Users/ashwinanand/fundoonotes/fundoonotes/src/controllers/user.controller.js:144:37
+    at /Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:52:18
+    at Generator.<anonymous> (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/regenerator.js:52:51)
+    at Generator.next (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/regeneratorDefine.js:17:23)
+    at asyncGeneratorStep (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:17)
+    at _next (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:17:9)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-06-29T16:54:31.183Z"}
+error: 
+    status - 500 
+    message - ReferenceError: bcrypt is not defined
+    at /Users/ashwinanand/fundoonotes/fundoonotes/src/services/user.service.js:61:68
+    at /Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:52:18
+    at Generator.<anonymous> (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/regenerator.js:52:51)
+    at Generator.next (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/regeneratorDefine.js:17:23)
+    at asyncGeneratorStep (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:17)
+    at _next (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:17:9)
+    at /Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:22:7
+    at new Promise (<anonymous>)
+    at Object.apply (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:14:12)
+    at Object.comparePassword (/Users/ashwinanand/fundoonotes/fundoonotes/src/services/user.service.js:61:29)
+    at /Users/ashwinanand/fundoonotes/fundoonotes/src/controllers/user.controller.js:144:37
+    at /Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:52:18
+    at Generator.<anonymous> (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/regenerator.js:52:51)
+    at Generator.next (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/regeneratorDefine.js:17:23)
+    at asyncGeneratorStep (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:17)
+    at _next (/Users/ashwinanand/fundoonotes/fundoonotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:17:9)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-06-29T16:54:36.757Z"}

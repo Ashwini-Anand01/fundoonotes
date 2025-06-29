@@ -1,0 +1,32 @@
+info: ::1 - - [28/Jun/2025:09:24:04 +0000] "GET /api/v1/ HTTP/1.1" 200 9 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Jun/2025:09:25:10 +0000] "GET /api/v1/ HTTP/1.1" 200 9 "-" "PostmanRuntime/7.44.1"
+
+info: ::1 - - [28/Jun/2025:09:33:56 +0000] "GET /api/v1/ HTTP/1.1" 200 9 "-" "PostmanRuntime/7.44.1"
+
+info: ::1 - - [28/Jun/2025:09:35:44 +0000] "GET /api/v1/ HTTP/1.1" 200 9 "-" "PostmanRuntime/7.44.1"
+
+info: ::1 - - [28/Jun/2025:09:37:06 +0000] "GET /api/v1/users HTTP/1.1" 500 70 "-" "PostmanRuntime/7.44.1"
+
+info: ::1 - - [28/Jun/2025:09:39:44 +0000] "POST /api/v1/users HTTP/1.1" 500 60 "-" "PostmanRuntime/7.44.1"
+
+info: ::1 - - [28/Jun/2025:09:39:48 +0000] "POST /api/v1/users HTTP/1.1" 500 60 "-" "PostmanRuntime/7.44.1"
+
+info: ::1 - - [28/Jun/2025:09:40:36 +0000] "POST /api/v1/users/add HTTP/1.1" 500 60 "-" "PostmanRuntime/7.44.1"
+
+info: ::1 - - [28/Jun/2025:09:41:17 +0000] "POST /api/v1/users/add HTTP/1.1" 500 60 "-" "PostmanRuntime/7.44.1"
+
+info: ::1 - - [28/Jun/2025:09:45:34 +0000] "POST /api/v1/users/add HTTP/1.1" 500 60 "-" "PostmanRuntime/7.44.1"
+
+info: ::1 - - [28/Jun/2025:09:52:03 +0000] "POST /api/v1/users/add HTTP/1.1" 500 62 "-" "PostmanRuntime/7.44.1"
+
+info: ::1 - - [28/Jun/2025:09:55:17 +0000] "POST /api/v1/users/add HTTP/1.1" 500 91 "-" "PostmanRuntime/7.44.1"
+
+info: ::1 - - [28/Jun/2025:09:58:40 +0000] "POST /api/v1/users/add HTTP/1.1" 201 228 "-" "PostmanRuntime/7.44.1"
+
+info: ::1 - - [28/Jun/2025:09:59:41 +0000] "DELETE /api/v1/users/1 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.44.1"
+
+info: ::1 - - [28/Jun/2025:09:59:50 +0000] "GET /api/v1/users HTTP/1.1" 200 235 "-" "PostmanRuntime/7.44.1"
+
+info: ::1 - - [28/Jun/2025:10:01:39 +0000] "GET /api/v1/users HTTP/1.1" 200 235 "-" "PostmanRuntime/7.44.1"
+
