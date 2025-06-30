@@ -52,7 +52,7 @@ export const registerUser = async(body) =>{
 };
 
 //login for register users
-//find for email id
+//finding forms email id
 export const findUserByEmail = async (email) => {
   return await User.findOne({ where: { email } });
 };
